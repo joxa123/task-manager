@@ -1,0 +1,45 @@
+body{
+    background-color:#f2f4f8;
+}
+
+section{
+    border: 2px solid red;
+    width: 500px;
+    height: 150px;
+    margin-left: 600px;
+    margin:auto;
+    margin-top: 200px;
+    background-color:#ffff;
+    border: none;
+    box-shadow: 5px 5px 5px #d4d6d9;
+}
+
+section p{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 26px;
+}
+
+section input{
+    margin-left: 50px;
+    width: 270px;
+    height: 24px;
+}
+
+section button{
+    width: 130px;
+    height: 31px;
+    margin-left: -5px;
+    background-color:#645cff;
+    color: #f5f7ff;
+    border: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+}
+
+footer{
+    margin: auto;
+    margin-left: 870px;
+    margin-top: 100px;
+}
+
