@@ -37,6 +37,7 @@ section button{
     font-family: "Gill Sans", sans-serif;
     font-size: 16px;
     border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
 }
 
 footer{
