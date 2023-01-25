@@ -29,7 +29,7 @@ section input{
 
 section button{
     width: 130px;
-    height: 31px;
+    height: 30px;
     margin-left: -5px;
     background-color:#645cff;
     color: #f5f7ff;
@@ -40,9 +40,91 @@ section button{
     cursor: pointer;
 }
 
+section div{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    margin-top: 60px;
+}
+
+
+.list2,
+.list{
+    width: 460px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: 0% auto;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #ffff;
+    box-shadow: 5px 5px 5px #d4d6d9;
+}
+
+.list2{
+    margin-top: 20px;
+}
+
+.edit{
+    background-image: url(./edit.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+
+.delete{
+    background-image: url(./delete.png);
+    border: none;
+    background-color: #ffff;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.completedmark{
+    background-image: url(./done.png); 
+}
+
+.edit,
+.delete,
+.completedmark{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 footer{
     margin: auto;
     margin-left: 870px;
     margin-top: 100px;
+    background-repeat: no-repeat;
 }
 
+
+.list h3,
+.list2 h3{
+    display: flex;
+    align-items: center;
+}
+
+.list div,
+.list2 div{
+    display: flex;
+    align-items: center
+}
+
+
+
+.task-complated h3 {
+    text-decoration: line-through
+}
+
+.completedmark{
+    visibility: hidden;
+}
+.task-complated .completedmark{
+    visibility: visible;
+}
