@@ -128,3 +128,17 @@ footer{
 .task-complated .completedmark{
     visibility: visible;
 }
+
+#message {
+    padding-left: 49px;
+    display: none;
+}
+
+.error {
+    display: block !important;
+    color: red;
+}
+
+.success {
+    color: green !important;
+}

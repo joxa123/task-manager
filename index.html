@@ -11,15 +11,16 @@
     <section>
         <p>Task Manager</p>
         <div class="inline"></div>
-            <input type="input" placeholder="text">
-            <button class="submit">submit</button>
+            <input id="input" type="input" placeholder="text">
+            <button onclick="addlist()" class="submit">submit</button>
+            <div id="message" class="error"></div>
         </div>
     </section>
 
 
-    <main>
+    <main id="taskcontainer">
 
-        <div class="list task-complated">
+        <div class="list task-comlated">
             <h3>
                 <span class="completedmark"></span>
                 web aplication
@@ -43,5 +44,11 @@
 
     </main>
 
+
 </body>
+
+<script src="./indexs.js">
+
+</script>
+
 </html>
