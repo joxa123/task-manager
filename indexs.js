@@ -65,7 +65,7 @@ function drawlist() {
                     ${array[index].name}
                 </h3>
                 <div>
-                    <a class="edit" href="task.html"></a>
+                    <a class="edit" href="task.html?id=${array[index].id}"></a>
                     <button class="delete"></button>
                 </div>
             </div>
